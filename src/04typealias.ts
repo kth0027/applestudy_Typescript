@@ -21,9 +21,9 @@
 // type Person = Name | Age;
 
 //
-type PositionX = { x: number};
-type PositionY = { y: number};
+// type PositionX = { x: number};
+// type PositionY = { y: number};
 
-type NewType = PositionX & PositionY;
+// type NewType = PositionX & PositionY;
 
-let postion : NewType = {x:10, y:20}
+// let postion : NewType = {x:10, y:20}
