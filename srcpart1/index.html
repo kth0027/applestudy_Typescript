@@ -14,7 +14,7 @@
     <button id="button">버튼</button>
     <script src="/dist/index.js"></script>
 
-    <script>
+    <!-- <script>
         //{object} 자료형으로 LOL캐릭터들의 정보를 정리하자
         var nunu = {
             q: 'consume',
@@ -28,6 +28,39 @@
         }
 
         //저렇게 비슷한 object 만들일 있으면 class생성하자
+    </script> -->
+
+    <script>
+
+        // 부모
+        function 기계(구멍){
+            // this.q = 'consume';
+            this.q = 구멍;
+            this.w = 'snowball';
+        }
+
+        기계.prototype.name = 'kim'
+
+        // 자식
+        var nuun = new 기계('consume');
+        var garen = new 기계('strike');
+
+        var 어레이 = [4,2,1];
+        var 어레이 = new Array(4,2,1);
+        
+        // 어레이.length
+        Array.prototype.함수 = function(){}
+        var 어레이 = [4,2,1];
+
+        
+
+        // E6 CLASS 문법
+        class Hero {
+            constructor(){
+                this.q = 구멍;
+                this.w = 'snowball';
+            }
+        }
     </script>
 </body>
 
