@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "tsc-watch": "^4.2.3"
+  },
+  "dependencies": {
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
   }
 }
